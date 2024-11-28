@@ -1,0 +1,5 @@
+CREATE TABLE TB_FUNCAO(
+                ID_FUNCIONARIOS
+                NOME_FUNCIONARIOS
+                FUNCAO_FUNCIONARIOS
+)

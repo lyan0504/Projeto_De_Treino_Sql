@@ -1,0 +1,21 @@
+CREATE TABLE TB_TI (
+                ID_TI INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+                NOME_TI VARCHAR NOT NULL,
+                ENDERECO_TI VARCHAR,
+                CIDADE_TI VARCHAR,
+                ESTADO_TI VARCHAR,
+                PAIS_TI VARCHAR,
+                CEP_TI NUMBER,
+                CPF_TI NUMBER NOT NULL,
+                RG_TI NUMBER NOT NULL,
+                EMAIL_TI VARCHAR,
+                TELPRINCIPAL_TI NUMBER NOT NULL,
+                TELEFONECONTATO_TI NUMBER,
+                NOMEPAI_TI VARCHAR NOT NULL,
+                NOMEMAE_TI VARCHAR NOT NULL,
+                CPFPAI_TI NUMBER NOT NULL,
+                CPF_TI NUMBER NOT NULL,
+                RGPAI_TI NUMBER,
+                RGMAE_TI NUMBER,
+                ENDERECO_PAIS_TI VARCHAR NOT NULL 
+);

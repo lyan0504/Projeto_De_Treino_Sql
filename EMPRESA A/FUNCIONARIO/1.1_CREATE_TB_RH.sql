@@ -1,0 +1,21 @@
+CREATE TABLE TB_RH (
+                ID_RH INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+                NOME_RH VARCHAR NOT NULL,
+                ENDERECO_RH VARCHAR,
+                CIDADE_RH VARCHAR,
+                ESTADO_RH VARCHAR,
+                PAIS_RH VARCHAR,
+                CEP_RH NUMBER,
+                CPF_RH NUMBER NOT NULL,
+                RG_RH NUMBER NOT NULL,
+                EMAIL_RH VARCHAR,
+                TELPRINCIPAL_RH NUMBER NOT NULL,
+                TELEFONECONTATO_RH NUMBER,
+                NOMEPAI_RH VARCHAR NOT NULL,
+                NOMEMAE_RH VARCHAR NOT NULL,
+                CPFPAI_RH NUMBER NOT NULL,
+                CPF_RH NUMBER NOT NULL,
+                RGPAI_RH NUMBER,
+                RGMAE_RH NUMBER,
+                ENDERECO_PAIS_RH VARCHAR NOT NULL 
+);
